@@ -6,18 +6,14 @@
 //
 
 #include <stdio.h>
-#include "data_introduce.h"
-#include "list_1.h"
+#include "list_linear.h"
 
-
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[])
+{
     // insert code here...
     printf("Hello, World!\n");
-    
-    //数据名词介绍
-    initDataIntroduce();
-    
-    //链表
-    initList1();
+
+    //线性表
+    initList_linear();
     return 0;
 }
